@@ -24,8 +24,8 @@ body {
   background: rgb(0, 0, 95);
   padding: 2rem 2rem;
   border-radius: 2rem;
-  width: 300px;
-  height: 400px;
+  width: 270px;
+  height: 350px;
   /* box-shadow: px 3px 3px; */
 }
 .num {
@@ -40,6 +40,7 @@ body {
 }
 #increment-btn {
   background-color: #7a78e7;
+  color:black;
   padding: 10px 15px;
   border: none;
   margin-bottom: 15px;
@@ -47,6 +48,7 @@ body {
 }
 #decrement-btn {
   background-color: #7a78e7;
+  color:black;
   padding: 10px 15px;
   border: none;
   margin-bottom: 15px;
@@ -54,6 +56,7 @@ body {
 }
 #save-btn {
   background-color: #7a78e7;
+  color:black;
   padding: 10px 15px;
   border: none;
   margin-bottom: 15px;
@@ -61,6 +64,7 @@ body {
 }
 #cancel-btn {
   background-color: #7a78e7;
+  color:black;
   padding: 10px 15px;
   border: none;
   margin-bottom: 15px;
