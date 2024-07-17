@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">Day 01 of Coding Challenge</div>
+    <div class="container">
+      <h1 class="num">People Entered</h1>
+      <h2 id="count-el">0</h2>
+      <div class="first-btn">
+        <button id="increment-btn" onclick="incrementBtn()">INCREMENT</button>
+        <button id="decrement-btn" onclick="decrementBtn()">DECREMENT</button>
+      </div>
+      <div class="second-btn">
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <button id="cancel-btn" onclick="cancel()">CANCEL</button>
+      </div>
+      <p id="save-el">Previous Entries: <br /></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

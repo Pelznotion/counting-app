@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-shadow: box-sizing;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(203, 220, 255);
+}
+.header {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 95);
+  padding: 2rem 2rem;
+  border-radius: 2rem;
+  width: 300px;
+  height: 400px;
+  /* box-shadow: px 3px 3px; */
+}
+.num {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+#count-el {
+  font-size: 5rem;
+  color: rgb(255, 248, 234);
+  margin-bottom: 1.5rem;
+}
+#increment-btn {
+  background-color: #7a78e7;
+  padding: 10px 15px;
+  border: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#decrement-btn {
+  background-color: #7a78e7;
+  padding: 10px 15px;
+  border: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#save-btn {
+  background-color: #7a78e7;
+  padding: 10px 15px;
+  border: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#cancel-btn {
+  background-color: #7a78e7;
+  padding: 10px 15px;
+  border: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#total-btn {
+  background-color: rgb(185, 184, 236);
+  padding: 10px 15px;
+  border: none;
+  margin-bottom: 15px;
+}
+#save-el {
+  color: white;
+}
